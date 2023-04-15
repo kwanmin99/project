@@ -1,0 +1,180 @@
+.all{
+    background: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    height: 30px;
+}
+
+
+.a{
+    width: 30px;
+    height: 30px;
+    margin-left: 50px;
+    
+}
+
+.ul1{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-top: -27px;
+    margin-right: -10px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.ul1>li:hover{
+    color: gray;
+}
+
+.ul1> li::after{
+    content: "|";
+    padding: 10px;
+}
+
+.ul1 > li:last-child::after{
+   content: "";
+}
+
+li> a{
+    color:black;
+    text-decoration-line: none;
+}
+
+li> a:hover{
+    color: gray;
+}
+
+.c{
+    width: 70px;
+    height: 100px;
+    margin-top: -20px;
+    margin-left: 50px;
+    display: block;
+}
+
+.a:hover, .b:hover, .c:hover, .fa-heart:hover, .fa-bag-shopping:hover{
+    opacity: 1;
+    animation: flash 100s;
+  }
+
+  @keyframes flash {
+    0% {
+      opacity: .4;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  
+.ul2{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: -55px;
+    margin-left: 50px;
+    padding-left: 50px;
+    
+}
+
+.ul2>li{
+    /* position: absolute; */
+    margin-right: 20px;
+    font-weight: bold;
+    
+}
+
+.nr:hover, .m:hover, .w:hover, .k:hover, .s:hover, .ss:hover, .n:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-decoration-thickness: 2px;
+    
+}
+
+.input{
+    border-radius: 24px;
+    border: 1px solid #fff;
+    width: 150px;
+    height: 40px;
+    background: #f5f5f5;
+    margin-top: -15px;
+    position: relative;
+    left: 310px;
+    z-index: 0;
+    padding-left: 40px;
+    
+}
+
+.search-icon{
+    position: relative;
+    left: 340px;
+    z-index: 1;
+}
+
+.input:hover{
+    background-color: lightgray;
+}
+
+.fa-heart{
+    position: relative;
+    left: 370px;
+}
+
+.fa-bag-shopping{
+    position: relative;
+    left: 420px;
+}
+
+.pass{
+    background-color: #f5f5f5;
+    height: 60px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pass2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+a{
+    color: gray;
+}
+
+.nike1, .nike2, .nike3, .nike4{
+    width: 400px;
+    height: 500px;
+    margin-top: 70px;
+}
+
+.nike1{
+    margin-left: 170px;
+}
+
+.nike1:hover, .nike2:hover, .nike3:hover, .nike4:hover{
+    opacity: 1;
+    animation: flash 100s;
+  }
+
+  @keyframes flash {
+    0% {
+      opacity: .4;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+
+
+
+
+
